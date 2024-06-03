@@ -51,6 +51,7 @@ const removeUser = catchError(async (req, res) => {
         return res.sendStatus(404)
     }
 
+    return res.sendStatus(204)
 })
 
 
